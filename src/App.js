@@ -1,13 +1,12 @@
 import './App.css';
-import react from "react"
-import mainPage from "./mainPage"
+import Main from "./Main"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Hello!
+          <Main/>
         </p>
       </header>
     </div>
